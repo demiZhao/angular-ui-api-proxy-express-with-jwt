@@ -1,0 +1,26 @@
+{
+  "name": "contact-manager-api",
+  "version": "1.0.0",
+  "description": "API for contact manager.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "diskdb": "^0.1.17",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
